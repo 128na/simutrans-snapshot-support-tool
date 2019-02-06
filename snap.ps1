@@ -3,7 +3,7 @@ Param(
   [int]$x = 0, # x
   [int]$y = 0, # y
   [int]$z = 0, # z
-  [int]$f = 3  # zoom 0..3(1/1)..6(1/2).8(1/4)
+  [int]$f = 3  # zoom 1..3(1/1)..6(1/2).8(1/4)9(1/8)
 )
 
 Get-ChildItem .\save\$file | ForEach-Object {
